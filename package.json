@@ -1,0 +1,16 @@
+{
+  "name": "small-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vowelCounter": "dead-server ./Vowel-Counter/index.html Vowel--port=3000 --host=localhost"
+  },
+  "keywords": [],
+  "author": "Minda",
+  "license": "MIT",
+  "devDependencies": {
+    "dead-server": "^1.0.6"
+  }
+}
