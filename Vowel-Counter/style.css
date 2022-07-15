@@ -1,12 +1,16 @@
-#container{
-
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#count{
-
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
 }
-#input{
-
+.count{
+    border: 1px solid blue;
+    background-color: blueviolet;
 }
-#vowels{
-    
+.input::placeholder{
+    color: red;
 }
