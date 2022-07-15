@@ -1,16 +1,32 @@
-*{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
+    flex-direction: column;
+    background-color: plum;
+    padding: 10px;
 }
 .count{
+    padding: 20px 40px;
+    font-size: 50px;
     border: 1px solid blue;
     background-color: blueviolet;
 }
 .input::placeholder{
-    color: red;
+    color: black;
+    text-align: center;
+}
+.input{
+    min-width: 400px;
+    min-height: 50px;
+}
+.vowels{
+    border: 1px solid blue;
+    min-width: 400px;
+    min-height: 100px;
+    padding: 5px;
 }
