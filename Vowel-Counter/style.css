@@ -24,6 +24,12 @@ body {
     min-width: 400px;
     min-height: 50px;
 }
+.btn{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 18px;
+}
 .vowels{
     border: 1px solid blue;
     min-width: 400px;
